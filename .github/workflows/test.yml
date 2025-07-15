@@ -3,7 +3,7 @@ name: CI for FizzBuzz
 # Déclenche la CI sur chaque push ou pull request sur la branche main
 on:
   push:
-    branches: [main]
+    branches: [main, fizzbuzz-15]
   pull_request:
     branches: [main]
 
